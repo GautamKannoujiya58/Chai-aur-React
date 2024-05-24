@@ -1,3 +1,4 @@
+import Chai from "./Chai";
 function App() {
   return (
     <>
@@ -34,6 +35,7 @@ function App() {
         <li>↪️npm install</li>
         <li>↪️npm run dev (by refering to scripts key in package.json file)</li>
       </ul>
+      <Chai />
     </>
   );
 }
