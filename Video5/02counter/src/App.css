@@ -1,0 +1,16 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.counter_button {
+  margin: 4px;
+  color: black;
+}
+#increase_button {
+  background-color: rgb(78, 206, 78);
+}
+#decrease_button {
+  background-color: rgb(222, 47, 47);
+}
