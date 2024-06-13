@@ -61,7 +61,7 @@ function App() {
         </div>
 
         <div className="flex flex-wrap text-sm gap-x-2 ">
-          <div className="flex items-center gap-x-1 p-4 ">
+          <div className="flex items-center mb-2 gap-x-1 p-4 ">
             <input
               type="range"
               min={8}
@@ -74,7 +74,7 @@ function App() {
             />
             <label>Length: {length}</label>
           </div>
-          <div className="flex items-center gap-x-1">
+          <div className="flex items-center mb-2 gap-x-1">
             <input
               type="checkbox"
               defaultChecked={numberChecked}
@@ -85,7 +85,7 @@ function App() {
             />
             <label htmlFor="numberInput">Numbers</label>
           </div>
-          <div className="flex items-center gap-x-1">
+          <div className="flex items-center  mb-2 gap-x-1">
             <input
               type="checkbox"
               defaultChecked={characterChecked}

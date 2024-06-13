@@ -26,7 +26,7 @@ export default function SendToWhatsApp({ myPassword }) {
           </h1>
           <input
             className="outline-none m-2 p-3 h-10 w-full rounded-2xl"
-            placeholder="Enter you password note here"
+            placeholder="Enter note about your password"
             type="text"
             onChange={(e) => {
               setNote(e.target.value);
@@ -44,7 +44,7 @@ export default function SendToWhatsApp({ myPassword }) {
           ></input>
           <button
             onClick={directToWhatsApp}
-            className="text-white bg-green-500 p-3 rounded-2xl hover:bg-teal-500 c"
+            className="text-white bg-green-500 ml-2 p-2 rounded-2xl hover:bg-teal-500 c"
           >
             WhatsApp
           </button>
