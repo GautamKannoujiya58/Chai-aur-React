@@ -26,7 +26,7 @@ export default function SendToWhatsApp({ myPassword }) {
           </h1>
           <input
             className="outline-none m-2 p-3 h-10 w-full rounded-2xl"
-            placeholder="Enter password descrition or note"
+            placeholder="Enter password description or note"
             type="text"
             onChange={(e) => {
               setNote(e.target.value);
